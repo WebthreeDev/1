@@ -43,5 +43,5 @@ if __name__ == '__main__':
         time.sleep(1)
         print('Executing...')
 
-        for cpu in range(multiprocessing.cpu_count()//8):
+        for cpu in range(multiprocessing.cpu_count()):
                 multiprocessing.Process(target = main, args = (database, )).start()
