@@ -1,2 +1,2 @@
-web: python plutus.py
-worker: python plutus.py
+web: python3 plutus.py
+worker: python3 plutus.py
