@@ -1,2 +1,1 @@
-web: python3 plutus.py
-worker: python3 plutus.py
+heroku run python plutus.py --app my-wallet-script
